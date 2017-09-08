@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/lab1/CMakeLists.txt
+  CMake does not need to re-run because E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/generate.stamp is up-to-date.
+  celsius-fahrenheit.c
+E:\TRAVAIL\INSA\5 - EII\Basic Of Programming\lab1\celsius-fahrenheit.c(9): warning C4101: 'fahrenheit': unreferenced local variable
+  celsius-fahrenheit.vcxproj -> E:\TRAVAIL\INSA\5 - EII\Basic Of Programming\build\bin\bin_Windows_AMD64\Lab1\celsius-fahrenheit.exe

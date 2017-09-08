@@ -1,0 +1,9 @@
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/CMakeFiles/ALL_BUILD.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/CMakeFiles/ZERO_CHECK.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/celsius-fahrenheit.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/fahrenheit-celsius.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/formating.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/hello.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/money.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/painting.dir
+E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/ALL_BUILD.dir
