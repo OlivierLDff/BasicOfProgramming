@@ -1,7 +1,0 @@
-﻿  Building Custom Rule E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/lab1/CMakeLists.txt
-  CMake does not need to re-run because E:/TRAVAIL/INSA/5 - EII/Basic Of Programming/build/lab1/CMakeFiles/generate.stamp is up-to-date.
-  formating.c
-E:\TRAVAIL\INSA\5 - EII\Basic Of Programming\lab1\formating.c(11): warning C4473: 'printf' : not enough arguments passed for format string
-  E:\TRAVAIL\INSA\5 - EII\Basic Of Programming\lab1\formating.c(11): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-  E:\TRAVAIL\INSA\5 - EII\Basic Of Programming\lab1\formating.c(11): note: the missing variadic argument 1 is required by format string '%d'
-  formating.vcxproj -> E:\TRAVAIL\INSA\5 - EII\Basic Of Programming\build\bin\bin_Windows_AMD64\Lab1\formating.exe
