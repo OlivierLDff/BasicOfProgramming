@@ -12,8 +12,8 @@ int main(void)
 	scanf("%f", &fahrenheit);
 
 	printf("celsius : %.1f\n", (fahrenheit - 32)/1.8);
-
+#if WIN32
 	system("pause");
-
+#endif
 	return 0;
 }

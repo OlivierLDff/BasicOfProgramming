@@ -37,8 +37,8 @@ int main(void)
 	}
 
 	printf("\nYou have %d ft\n\n", 50*fiftyCoins + 100*hundredCoins + 200*twoHundredCoins);
-
+#if WIN32
 	system("pause");
-
+#endif
 	return 0;
 }

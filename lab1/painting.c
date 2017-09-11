@@ -16,8 +16,8 @@ int main(void)
 	area  = PI*diameter*height + diameter*diameter*PI/2;
 
 	printf("%.1f can(s) of paint needed.\n", (area/2));
-
+#if WIN32
 	system("pause");
-
+#endif
 	return 0;
 }

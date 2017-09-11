@@ -12,8 +12,8 @@ int main(void)
 	scanf("%f", &celsius);
 
 	printf("fahrenheit : %.1f\n", celsius*1.8 + 32);
-
+#if WIN32
 	system("pause");
-
+#endif
 	return 0;
 }
