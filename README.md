@@ -6,6 +6,9 @@
 mkdir build
 cd build
 cmake ..
-make```
+make
 ```
 
+## Labs
+
+Labs can be found [here](http://eet.bme.hu/~kohari/vieeaa00/)
