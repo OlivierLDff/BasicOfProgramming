@@ -13,12 +13,12 @@ foreach(_source IN ITEMS ${_source_files})
 	MESSAGE(>${execName})
 	add_executable("${execName}" "${_source}")
 
-	set_target_properties(${execName} PROPERTIES FOLDER Lab1/${_group_path})
+	set_target_properties(${execName} PROPERTIES FOLDER Lab2/${_group_path})
 	set_target_properties( ${execName} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Lab1/${_group_path} )
 
 	if ( MSVC )   
-		set_target_properties( ${execName} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Lab1/${_group_path} )
-		set_target_properties( ${execName} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Lab1/${_group_path} )
+		set_target_properties( ${execName} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Lab2/${_group_path} )
+		set_target_properties( ${execName} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Lab2/${_group_path} )
 	endif ( MSVC )
 
 endforeach()
