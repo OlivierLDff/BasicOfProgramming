@@ -27,3 +27,4 @@ set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib/lib_${CMAKE_SYSTEM
 add_subdirectory(lab1)
 add_subdirectory(lab2)
 add_subdirectory(lab3)
+add_subdirectory(lab5)

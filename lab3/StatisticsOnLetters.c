@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <string.h>
+#include <stdlib.h>
 
-const size_t MAX_BUFFER = 512;
-const size_t ALPHABET_LETTER_NUMBER = 26;
+#define MAX_BUFFER 512
+#define ALPHABET_LETTER_NUMBER 26
 
 int main(int argc, char ** argv)
 {
