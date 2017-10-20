@@ -24,10 +24,11 @@ void bitShifting(const uint8_t * arr, const size_t s, uint8_t * dest)
 	size_t i = 0;
 	for(; i < s; ++i)
 	{
-		dest[i] = arr[i] << 1;
-		if (i != s - 1)
-			dest[i] += (arr[i + 1] & 0x80) ? 1 : 0;
+		dest[i] = arr[i] >> 1;
+		if (i)
+			dest[i] += (arr[i - 1] & 1) ? 0x80 : 0;
 	}
+	if(s > 1) dest[0] += arr[s - 1] & 1 ? 0x80 : 0;
 }
 
 
