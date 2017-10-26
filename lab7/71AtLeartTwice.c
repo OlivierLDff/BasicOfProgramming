@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define SIZE 6
-const int * foo(const int * arr, const size_t size)
+const int * printInNumeralSys(const int * arr, const size_t size)
 {
 	if (!arr) return NULL;
 	size_t i = 0;
@@ -13,7 +13,7 @@ const int * foo(const int * arr, const size_t size)
 int main()
 {
 	int arr[SIZE] = { 1, 2, 3, 4, 5, 3 };
-	const int * elt = foo(arr, SIZE);
+	const int * elt = printInNumeralSys(arr, SIZE);
 	if (elt)
 		printf("First element that is present twice is %d\n", *elt);
 	else

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void foo(double length, double * area, double * volume)
+void printInNumeralSys(double length, double * area, double * volume)
 {
 	if(area && volume)
 	{
@@ -13,7 +13,7 @@ int main()
 {
 	double l = 2.7f;
 	double a, v;
-	foo(l, &a, &v);
+	printInNumeralSys(l, &a, &v);
 	printf("length is = %lf, volume = %lf, area is = %lf\n", l, v, a);
 #ifdef WIN32
 	system("pause");
