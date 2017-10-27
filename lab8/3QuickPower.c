@@ -6,10 +6,14 @@ int powerRec(const int n, const int k)
 {
 	if (k == 0) return 1;
 	if (k == 1) return n;
-	if (k == 2) return n*n;
+	if (k == 2) 
+		return n*n;
 	
-	if(n%2) //even
-		return powerRec(n, k >> 1);
+	if(!n%2) //even
+	{
+		const int v = powerRec(n, k >> 1);
+		return v*v;
+	}
 	return n*powerRec(n, k - 1); //odd
 }
 
