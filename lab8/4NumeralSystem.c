@@ -11,7 +11,7 @@ void pNumeralSys(const uint32_t n, const uint32_t base)
 
 void pNumeralSys_it(uint32_t n, const uint32_t base)
 {
-	uint32_t buf[256];
+	uint32_t buf[32]; //32 is enough for 32 bits in base 2
 	size_t i = 0;
 	while(n / base)
 	{		

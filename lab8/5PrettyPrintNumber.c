@@ -16,7 +16,7 @@ void printNicely(const uint32_t n)
 
 void printNicely_it(uint32_t n)
 {
-	uint32_t buf[256];
+	uint32_t buf[4];
 	size_t i = 0;
 	buf[i++] = n % 1000;
 	while (n / 1000)
