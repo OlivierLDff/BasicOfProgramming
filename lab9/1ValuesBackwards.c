@@ -8,7 +8,7 @@ int main()
 	size_t i = 0;
 	double * values = NULL;
 	printf("Number Of real value to read?");
-	scanf("%d", &n);
+	scanf("%zu", &n);
 
 	values = malloc(sizeof(double)*n);
 	if(!values)
